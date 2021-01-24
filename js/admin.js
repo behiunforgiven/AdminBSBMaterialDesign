@@ -2,6 +2,8 @@ if (typeof jQuery === "undefined") {
     throw new Error("jQuery plugins need to be before this file");
 }
 
+$.fn.selectpicker.Constructor.BootstrapVersion = '5';
+
 $.AdminBSB = {};
 $.AdminBSB.options = {
     colors: {
